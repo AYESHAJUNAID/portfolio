@@ -10,7 +10,7 @@ body {
   font-family: poppin;
   font-size: 55px;
   font-weight: bold;
-  animation: logo 1s ease-in-out forwards;
+  animation: logo 1.5s ease-in-out forwards;
 }
 .port {
   color: orangered;
@@ -23,7 +23,7 @@ body {
   transition: 1s;
 }
 .nav-item {
-  animation: dev 1s ease-in-out forwards;
+  animation: logo 1s ease-in-out forwards;
 }
 .li:hover {
   color: orangered;
@@ -85,6 +85,18 @@ body {
   margin-top: -7%;
   width: 73%;
   height: 60vh;
+  margin-bottom: 10%;
+}
+.about-me {
+  background-color: rgb(19, 18, 18);
+}
+.info-me {
+  color: orangered;
+  font-family: poppin;
+}
+.bar-name{
+    color: white;
+    font-family: poppin;
 }
 @keyframes pic {
   0% {
@@ -113,7 +125,7 @@ body {
 @keyframes logo {
   0% {
     opacity: 0;
-    transform: translateY(100px);
+    transform: translateY(200px);
   }
   100% {
     opacity: 1;
