@@ -1,0 +1,132 @@
+@font-face {
+  font-family: poppin;
+  src: url(./fonts/Poppins-Medium.ttf);
+}
+body {
+  font-family: poppin;
+}
+.logo {
+  color: white;
+  font-family: poppin;
+  font-size: 55px;
+  font-weight: bold;
+  animation: logo 1s ease-in-out forwards;
+}
+.port {
+  color: orangered;
+}
+.li {
+  color: white;
+  font-size: 18px;
+  font-family: poppin;
+  padding-right: 10px;
+  transition: 1s;
+}
+.nav-item {
+  animation: dev 1s ease-in-out forwards;
+}
+.li:hover {
+  color: orangered;
+}
+.hello {
+  background-color: orangered;
+  color: white;
+  font-family: poppin;
+  width: 16%;
+  height: 5vh;
+  border: none;
+  border-radius: 7px;
+}
+.im {
+  font-family: poppin;
+  color: white;
+  padding-left: 6px;
+}
+
+.name {
+  color: white;
+  font-family: poppin;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 2%;
+  text-shadow: 4px 4px 7px orangered;
+  animation: name 2s ease-in-out forwards;
+}
+.dev {
+  color: white;
+  font-family: poppin;
+  animation: dev 2.1s ease-in-out forwards;
+}
+.dev1 {
+  color: orangered;
+}
+.hire {
+  background-color: transparent;
+  color: white;
+  font-family: poppin;
+  width: 25%;
+  height: 7vh;
+  border: 2px solid orangered;
+  border-radius: 7px;
+  transition: 1s;
+  margin-top: 3%;
+}
+.hire:hover {
+  background-color: orangered;
+  color: white;
+  font-family: poppin;
+  width: 25%;
+  height: 7vh;
+  border: none;
+  border-radius: 7px;
+}
+
+.me {
+  margin-top: -7%;
+  width: 73%;
+  height: 60vh;
+}
+@keyframes pic {
+  0% {
+    opacity: 0;
+    transform: translate(50px);
+  }
+}
+@keyframes name {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes dev {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes logo {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media screen and (max-width: 768px) {
+  .me {
+    margin-top: 10%;
+    width: 75%;
+    height: 50vh;
+  }
+  .home-text {
+    margin-top: -50%;
+  }
+}
