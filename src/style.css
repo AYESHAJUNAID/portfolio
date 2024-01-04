@@ -94,9 +94,9 @@ body {
   color: orangered;
   font-family: poppin;
 }
-.bar-name{
-    color: white;
-    font-family: poppin;
+.bar-name {
+  color: white;
+  font-family: poppin;
 }
 @keyframes pic {
   0% {
@@ -142,3 +142,35 @@ body {
     margin-top: -50%;
   }
 }
+
+.me {
+  margin-top: -7%;
+  width: 73%;
+  height: 60vh;
+  margin-bottom: 10%;
+}
+.img-div {
+  border: 7px solid orangered;
+  overflow: hidden;
+}
+.pro-img {
+  width: 100%;
+  position: relative;
+  transition: 0.25s ease;
+  height: 28vh;
+}
+.img-div:hover .pro-img {
+  transform: scale(1.1);
+}
+.live {
+  width: 45%;
+  margin-bottom: 30px;
+}
+.live:hover {
+  width: 45%;
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+
