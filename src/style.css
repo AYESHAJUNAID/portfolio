@@ -134,12 +134,16 @@ body {
 }
 @media screen and (max-width: 768px) {
   .me {
-    margin-top: 10%;
+    margin-top: 20%;
     width: 75%;
     height: 50vh;
+    
   }
   .home-text {
     margin-top: -50%;
+  }
+  .bb {
+    margin-bottom: 20px;
   }
 }
 
@@ -173,4 +177,3 @@ body {
   text-decoration: none;
   color: white;
 }
-
